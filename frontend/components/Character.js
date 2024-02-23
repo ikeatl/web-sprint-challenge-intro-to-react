@@ -15,7 +15,7 @@ function Character(props) { // ❗ Add the props
     <div>
       {/* Use the same markup with the same attributes as in the mock */
         <div onClick={toggleHomeworldRendering} className='character-card'>
-          <h3>
+          <h3 className='character-name'>
             {character.name}
           </h3>
           {isHomeworldRendering ?
